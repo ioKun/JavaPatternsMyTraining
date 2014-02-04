@@ -1,6 +1,6 @@
 package patterns.abstractfactory.base;
 
-public class CanadaFinancialToolsFactory {
+public class CanadaFinancialToolsFactory extends FinancialToolsFactory  {
     public TaxProcessor createTaxProcessor() {
         return new CanadaTaxProcessor();
     }
